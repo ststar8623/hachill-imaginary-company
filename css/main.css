@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+}
+/* Nav */
+.navbar {
+  margin-bottom: 50px;
+  border-radius: 0;
+}
+
+/* Jumbotron */
+.jumbotron {
+  margin-bottom: 0;
+  background-color: black;
+}
+.jumbotron h1 {
+  color: grey;
+}
+.jumbotron p {
+  font-size: 18px;
+  color: #808080;
+}
+#logo {
+  padding: 15px;
+}
+
+/* body */
+.panel-heading {
+  font-style: italic;
+}
+.panel-heading, .panel-footer {
+  text-align: center;
+}
+.pager li a {
+  background-color: black;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: black;
+  padding: 25px;
+  color: #808080;
+}
+
+/* media queries */
+@media (max-width: 600px) {
+  .jumbotron p {
+    font-size: 12px;
+  }
+  .jumbotron img:first-child {
+    display: none;
+  }
+}
